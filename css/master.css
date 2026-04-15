@@ -4,37 +4,45 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #8466ab85;
-  color: white;
+  background-color: #2c3e50;
 }
+
 
 header {
-  background: #8466ab;
+  background: #2c3e50;
   color: white;
   padding: 15px;
+  text-align: center; 
 }
 
-.sh, section h2 {
-  text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+.sh, section h2{
+
+    text-shadow: 2px 1px 3px #29547e
+
 }
 
 section {
-  background-color: white;
-  color: #8466ab;
-  margin: 0;
-  padding: 20px;
-  border-radius: 10px;
+  background: #ffffff;
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 12px;
+  max-width: 900px;
+  border: 1px solid #bbf7d0;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+  transition: 0.3s;
 }
 
+ 
+
 nav a {
-  color: white;
+  color: rgb(255, 255, 255);
   margin: 10px;
   text-decoration: none;
   transition: 0.3s;
 }
 
 nav a:hover {
-  color: #ffffffcc;
+  color: #f39c12;
 }
 
 main {
@@ -43,75 +51,65 @@ main {
 }
 
 hr {
-  height: 5px;
-  margin: 0;
-  background-color: white;
-  border: none;
+    width: auto;
+    height: 10px;
+    margin: 0px;
+    background-color: #2c3e50;
+
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  background: white;
-  color: #8466ab;
-  border-radius: 10px;
-  overflow: hidden;
 }
 
 table, th, td {
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
 }
 
 th {
-  background: #8466ab;
+  background: #34495e;
   color: white;
 }
 
 tr:hover {
-  background: #f3f0fa;
+  background: #29547e;
 }
 
 form {
   display: flex;
   flex-direction: column;
   max-width: 400px;
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
 }
 
 input, textarea {
-  margin: 10px 0;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+    margin: 10px 0;
+    padding: 8px;
 }
 
 button {
-  background: #8466ab;
+  background: #2c3e50;
   color: white;
   padding: 10px;
   border: none;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 5px;
 }
 
 button:hover {
-  background: #6f5594;
+  background: #f39c12;
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background: #8466ab;
+  background: #2c3e50;
   color: white;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   nav {
     display: flex;
     flex-direction: column;
   }
-}
+} 
