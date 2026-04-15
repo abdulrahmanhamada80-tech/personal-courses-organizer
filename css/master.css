@@ -4,39 +4,37 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #2c3e50;
+  background-color: #8466ab85;
+  color: white;
 }
 
-
 header {
-  background: #2c3e50;
+  background: #8466ab;
   color: white;
   padding: 15px;
 }
 
-.sh, section h2{
-
-    text-shadow: 2px 1px 3px #29547e
-
+.sh, section h2 {
+  text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
 }
 
 section {
-    background-color: #a7a7a7;
-    margin: -20px;
-    padding: 20px;
+  background-color: white;
+  color: #8466ab;
+  margin: 0;
+  padding: 20px;
+  border-radius: 10px;
 }
 
- 
-
 nav a {
-  color: rgb(255, 255, 255);
+  color: white;
   margin: 10px;
   text-decoration: none;
   transition: 0.3s;
 }
 
 nav a:hover {
-  color: #f39c12;
+  color: #ffffffcc;
 }
 
 main {
@@ -45,59 +43,68 @@ main {
 }
 
 hr {
-    width: auto;
-    height: 10px;
-    margin: 0px;
-    background-color: #2c3e50;
-
+  height: 5px;
+  margin: 0;
+  background-color: white;
+  border: none;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  background: white;
+  color: #8466ab;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 table, th, td {
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
 }
 
 th {
-  background: #34495e;
+  background: #8466ab;
   color: white;
 }
 
 tr:hover {
-  background: #29547e;
+  background: #f3f0fa;
 }
 
 form {
   display: flex;
   flex-direction: column;
   max-width: 400px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
 }
 
 input, textarea {
-    margin: 10px 0;
-    padding: 8px;
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 button {
-  background: #2c3e50;
+  background: #8466ab;
   color: white;
   padding: 10px;
   border: none;
   cursor: pointer;
   transition: 0.3s;
+  border-radius: 5px;
 }
 
 button:hover {
-  background: #f39c12;
+  background: #6f5594;
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background: #2c3e50;
+  background: #8466ab;
   color: white;
 }
 
